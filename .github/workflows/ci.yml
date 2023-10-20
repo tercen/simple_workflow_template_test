@@ -32,7 +32,6 @@ jobs:
           --user=${{ secrets.TERCEN_TEST_OPERATOR_USERNAME }} \
           --passw=${{ secrets.TERCEN_TEST_OPERATOR_PASSWORD }} \
           --serviceUri=${{ secrets.TERCEN_TEST_OPERATOR_URI }} \
-          --gitToken=${{ github.token }} \
           --filename="Crabs Data.csv"
       # - name: Check Success
       #   run: |
